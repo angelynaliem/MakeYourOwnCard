@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MakeYourOwnCard</string>
+    <string name="Recipient">To our most wonderful husband and father -</string>
+    <string name="happybirthday">Happy 40th Birthday!</string>
+    <string name="birthdaymessage">You have filled our lives with so much love and laughter. May the next 40 years be as exciting as Star Wars, unicorns, and Ultimate combined!</string>
+    <string name="closing">Love,</string>
+    <string name="sender">Aa</string>
+    <string name="ps">P.S. Enjoy your PS4!</string>
+</resources>

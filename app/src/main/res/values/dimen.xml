@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <dimen name="eight">8dp</dimen>
+    <dimen name="thirty_two">32dp</dimen>
+    <dimen name="twenty_four">24dp</dimen>
+    <dimen name="fourty">40dp</dimen>
+    <dimen name="fifty_six">56dp</dimen>
+    <dimen name="ninety_six">96dp</dimen>
+    <dimen name="sixty_four">64dp</dimen>
+    <dimen name="sixteen">16dp</dimen>
+    <dimen name="twofourty">240dp</dimen>
+    <dimen name="twofourtyeight">248dp</dimen>
+    <dimen name="subtext_size">16sp</dimen>
+    <dimen name="message_size">24sp</dimen>
+    <dimen name="birthday_message_size">32sp</dimen>
+
+</resources>

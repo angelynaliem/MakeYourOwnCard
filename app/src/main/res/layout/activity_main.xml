@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:paddingBottom="@dimen/thirty_two"
+        android:paddingLeft="@dimen/twenty_four"
+        android:paddingTop="@dimen/sixty_four"
+        android:text="@string/Recipient"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/subtext_size" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/fifty_six"
+            android:adjustViewBounds="true"
+            android:maxHeight="@dimen/ninety_six"
+            android:maxWidth="@dimen/ninety_six"
+            android:src="@drawable/starwarspic" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/eight"
+            android:adjustViewBounds="true"
+            android:maxHeight="@dimen/ninety_six"
+            android:maxWidth="@dimen/ninety_six"
+            android:src="@drawable/unicorn" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/eight"
+            android:adjustViewBounds="true"
+            android:maxHeight="@dimen/ninety_six"
+            android:maxWidth="@dimen/ninety_six"
+            android:src="@drawable/ultimatepic" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/fifty_six"
+        android:layout_marginTop="@dimen/sixteen"
+        android:fontFamily="cursive"
+        android:paddingTop="@dimen/sixteen"
+        android:text="@string/happybirthday"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/birthday_message_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/fourty"
+        android:layout_marginRight="@dimen/fourty"
+        android:fontFamily="cursive"
+        android:paddingTop="@dimen/thirty_two"
+        android:text="@string/birthdaymessage"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/message_size" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/twofourty"
+        android:fontFamily="serif"
+        android:paddingTop="@dimen/fifty_six"
+        android:text="@string/closing"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/subtext_size"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/twofourtyeight"
+        android:fontFamily="serif"
+        android:paddingTop="@dimen/eight"
+        android:text="@string/sender"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/subtext_size" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/fourty"
+        android:fontFamily="serif"
+        android:paddingTop="@dimen/thirty_two"
+        android:text="@string/ps"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/subtext_size" />
+
+</LinearLayout>
+
